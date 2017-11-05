@@ -5,7 +5,7 @@ import sys
 def get_break_data(vid):
     headers = {
         # Request headers
-        'Ocp-Apim-Subscription-Key': '42368468f63346bbbad78b947727918f',
+        'Ocp-Apim-Subscription-Key': '{Key}',
     }
     url = 'https://videobreakdown.azure-api.net/Breakdowns/Api/Partner/Breakdowns/' + vid
     res = requests.get(url=url, headers=headers)

@@ -4,7 +4,7 @@ import time
 
 
 headers = {
-    'Ocp-Apim-Subscription-Key': '42368468f63346bbbad78b947727918f',
+    'Ocp-Apim-Subscription-Key': '{Key}',
 }
 
 data = {
